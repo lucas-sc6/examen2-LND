@@ -1,0 +1,124 @@
+:root{
+    --white: hsl(0, 0%, 100%);
+    --cajillass: hsl(300, 24%, 96%);
+    --texto: hsl(303, 10%, 53%);
+    --cajasYh1: hsl(300, 43%, 22%);
+    --letrasCajas: hsl(333, 80%, 67%);
+
+
+}
+
+html{
+    font-size: 62,5%;
+
+}
+
+body{
+    padding: 5%;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+
+}
+
+@media (min-width: 375px){
+    body{
+        
+        display: grid;
+        
+        
+    }
+
+    .puntuacion{
+        
+    }
+
+}
+
+main{
+    max-width: 35rem;
+    max-height: 100rem;
+
+}
+
+ header{
+    color: var(--cajasYh1);
+    font-size: 1.5rem;
+
+}
+
+.descripcion{
+    padding: 0.5rem;
+    margin: 1rem;
+    color: var(--texto);
+}
+
+
+/* prensa */
+.puntuacion__prensa{
+    background-color: var(--cajillass);
+    border-radius: 1rem;
+    height: 5rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    color:var(--cajasYh1);
+
+}
+
+/* people */
+.reviews{
+    margin-top: 2rem;
+
+}
+
+.reviews__personas{
+    margin: 4%;
+    padding: 1rem;
+    background-color: var(--cajasYh1);
+    border-radius:2.5%;
+   
+}
+
+.reviews__personas img{
+    border-radius: 2.4rem;
+    display: flex;
+    
+}
+
+.reviews__personas h1{ 
+    text-align: left;
+    color: var(--white);
+    font-size: 15px;
+    margin-left: 1rem;
+}
+
+.reviews__personas h2{
+    margin-left: 1rem;
+    text-align: left;
+    color: var(--letrasCajas);
+    font-size: 15px;
+}
+
+.reviews__personas p{
+    padding: 1rem;
+    text-align: left;
+    color: var(--white);
+    font-size: 15px;
+ 
+}
+
+@media (min-width: 375px){  
+    .reviews{
+        display: grid;
+      
+    
+    }
+
+
+
+
+}
